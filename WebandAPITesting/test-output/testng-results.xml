@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="20323" started-at="2018-12-31T06:10:00Z" finished-at="2018-12-31T06:10:20Z">
+    <groups>
+    </groups>
+    <test name="test" duration-ms="20323" started-at="2018-12-31T06:10:00Z" finished-at="2018-12-31T06:10:20Z">
+      <class name="com.sample.WebandAPITesting.Tests.SignUpTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="setUp" is-config="true" duration-ms="7829" started-at="2018-12-31T06:09:52Z" finished-at="2018-12-31T06:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startReport()[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="startReport" is-config="true" duration-ms="191" started-at="2018-12-31T06:10:00Z" finished-at="2018-12-31T06:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method status="PASS" signature="createAccountWithoutEmail()[pri:1, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithoutEmail" duration-ms="8329" started-at="2018-12-31T06:10:00Z" finished-at="2018-12-31T06:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithoutEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="5" started-at="2018-12-31T06:10:08Z" finished-at="2018-12-31T06:10:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithoutEmail status=SUCCESS method=SignUpTest.createAccountWithoutEmail()[pri:1, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createAccountWithoutReTypeEmail()[pri:2, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithoutReTypeEmail" duration-ms="1404" started-at="2018-12-31T06:10:08Z" finished-at="2018-12-31T06:10:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithoutReTypeEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T06:10:10Z" finished-at="2018-12-31T06:10:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithoutReTypeEmail status=SUCCESS method=SignUpTest.createAccountWithoutReTypeEmail()[pri:2, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createAccountWithoutPassword()[pri:3, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithoutPassword" duration-ms="1494" started-at="2018-12-31T06:10:10Z" finished-at="2018-12-31T06:10:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithoutPassword -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="1" started-at="2018-12-31T06:10:11Z" finished-at="2018-12-31T06:10:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithoutPassword status=SUCCESS method=SignUpTest.createAccountWithoutPassword()[pri:3, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createAccountWithoutdata()[pri:4, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithoutdata" duration-ms="809" started-at="2018-12-31T06:10:11Z" finished-at="2018-12-31T06:10:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithoutdata -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T06:10:12Z" finished-at="2018-12-31T06:10:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithoutdata status=SUCCESS method=SignUpTest.createAccountWithoutdata()[pri:4, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createAccountWithPwdLessthan8chars()[pri:5, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithPwdLessthan8chars" duration-ms="1545" started-at="2018-12-31T06:10:12Z" finished-at="2018-12-31T06:10:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithPwdLessthan8chars -->
+        <test-method status="PASS" signature="createAccountWithinvalidEmail()[pri:6, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithinvalidEmail" duration-ms="2281" started-at="2018-12-31T06:10:13Z" finished-at="2018-12-31T06:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithinvalidEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T06:10:13Z" finished-at="2018-12-31T06:10:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithPwdLessthan8chars status=SUCCESS method=SignUpTest.createAccountWithPwdLessthan8chars()[pri:5, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createAccountWithMismatchReTypeEmail()[pri:7, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithMismatchReTypeEmail" duration-ms="1508" started-at="2018-12-31T06:10:16Z" finished-at="2018-12-31T06:10:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithMismatchReTypeEmail -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T06:10:16Z" finished-at="2018-12-31T06:10:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithinvalidEmail status=SUCCESS method=SignUpTest.createAccountWithinvalidEmail()[pri:6, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T06:10:17Z" finished-at="2018-12-31T06:10:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithMismatchReTypeEmail status=SUCCESS method=SignUpTest.createAccountWithMismatchReTypeEmail()[pri:7, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="createAccountWithValidData()[pri:8, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="createAccountWithValidData" duration-ms="2246" started-at="2018-12-31T06:10:17Z" finished-at="2018-12-31T06:10:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountWithValidData -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="endReport" is-config="true" duration-ms="481" started-at="2018-12-31T06:10:19Z" finished-at="2018-12-31T06:10:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="getResult" is-config="true" duration-ms="0" started-at="2018-12-31T06:10:19Z" finished-at="2018-12-31T06:10:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccountWithValidData status=SUCCESS method=SignUpTest.createAccountWithValidData()[pri:8, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.sample.WebandAPITesting.Tests.SignUpTest@57fffcd7]" name="tearDown" is-config="true" duration-ms="687" started-at="2018-12-31T06:10:20Z" finished-at="2018-12-31T06:10:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sample.WebandAPITesting.Tests.SignUpTest -->
+    </test> <!-- test -->
+  </suite> <!-- TestSuite -->
+</testng-results>
