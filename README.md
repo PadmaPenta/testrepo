@@ -1,35 +1,12 @@
 # Github RestAPI V3 Version 
-Table of Contents
 
-1	Introduction
-1.2	Purpose
-1.3	Scope
-1.4	References
-1.4	Environments Required
-1.4	Documentations
-1.4	Tools
-2	Features to be tested
-4	Test Strategy
-	4.1        Test Automation
-4.1	Testing Types
-4.1.1	User Story Testing
-4.1.2	Regression Testing
-4.1.3	Business Flows Testing
-5	Concerns
-6	Risks and Contingencies
-
-
-
-Introduction
+Introduction:
 This document outlines Test strategy for GitHub V3 version. This also emphasizes on what is being tested at each of the levels i.e. on a integration level, in regression testing and end to end business flows testing
-Purpose
+Purpose:
 The primary goal of this document is to establish a Test Strategy for the activities that will follow to validate GitHub V3 version for real users. These activities will focus upon identifying the following:
-Features to be tested
-Features excluded for testing
-Risks and contingencies
-Scope
+Features to be tested:
+Scope:
 The scope of testing of GitHub V3 version is as follows:
-
 Testing developed user stories committed for GitHub V3 Version IDEA (IDEA-XXX, IDEA-XXX, IDEA-XXX)
 Junits--unit testing will be covered by dev
 API testing
@@ -46,12 +23,12 @@ https://developer.github.com/v3/
 Environments Required:
 Two staging environments STG1 and STG2
 
-Documentation
+Documentation:
 Need to write test case for API calls and front functionality testing
 Need to write Requirement Traceability matrix
 
-Tools
-	API Manual Testing: Postman
+Tools:
+API Manual Testing: Postman
 API Automation: Jmeter/Soap UI/Rest assured suggestable but used Rest assured with java
 Functionality testing: Selenium with java
 Framework: PageObjectModel, Maven Structure
@@ -125,25 +102,24 @@ Requirements freezing	No major changes should be allowed in between testing phas
 
 
 github user evens api automated use cases			
-S.No.	Test Scenaios	Expected result	Automation Status
-1	"Verify able to call events api for any user
-Ex: GET https://api.github.com/users/user/events"	Should able to get response for events api	Automated
-2	"Verify response header for events api for any user
-Ex:GET https://api.github.com/users/user/events"	Should able to 200 OK response header	Automated
-3	"Verify all the fields in response body
-Ex:GET https://api.github.com/users/user/events"	All required fields should be displayed	Automated
-4	"Verify all the fields in public field in response body
-Ex:GET https://api.github.com/users/user/events"	Value should be true for public users and false for private users	Automated
+Test Scenaios
+"Verify able to call events api for any user
+Ex: GET https://api.github.com/users/user/events"
+"Verify response header for events api for any user
+Ex:GET https://api.github.com/users/user/events"
+"Verify all the fields in response body
+Ex:GET https://api.github.com/users/user/events"
+"Verify all the fields in public field in response body
+Ex:GET https://api.github.com/users/user/events"
 
 # Registration web page automation 
 Indeed Registration page use cases(https://www.indeed.co.in/)			
-S.No.	Test Scenaios	Expected result	Automation Status
-1	Verify whether user able to create account without email	User should able to register into the site	Automated
-2	Verify whether user able to create account without retype email	Error notification should be displayed and user should not able to create account by click on submit button	Automated
-3	Verify whether user able to create account without password	Error notification should be displayed and user should not able to create account by click on submit button	Automated
-4	Verify whether user able to create account without data	Error notification should be displayed and user should not able to create account by click on submit button	Automated
-5	Verify whether user able to create account with password less than 8 charecters	Error notification should be displayed and user should not able to create account by click on submit button	Automated
-6	Verify whether user able to create account with invalid email	Error notification should be displayed and user should not able to create account by click on submit button	Automated
-7	Verify whether user able to create account with email and retype email mistmatch	Error notification should be displayed and user should not able to create account by click on submit button	Automated
-8	Verify whether user able to create account with valid email,retype email and password	User should able to register into the site	Automated
-			
+Test Scenaios	
+1	Verify whether user able to create account without email
+2	Verify whether user able to create account without retype email
+3	Verify whether user able to create account without password
+4	Verify whether user able to create account without data
+5	Verify whether user able to create account with password less than 8 charecters
+6	Verify whether user able to create account with invalid email
+7	Verify whether user able to create account with email and retype email mistmatch
+8	Verify whether user able to create account with valid email,retype email and password
