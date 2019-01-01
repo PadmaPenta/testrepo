@@ -18,6 +18,8 @@ public class PropertiesHelper {
 			input = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\config.properties");
 			}else if("testdata".equalsIgnoreCase(fileName)){
 				input = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\testdata.properties");	
+			}else if("apitestdata".equalsIgnoreCase(fileName)){
+				input = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\resources\\apitestdata.properties");	
 			}
 			prop.load(input);
 			value=prop.getProperty(key);

@@ -1,25 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
-  <test thread-count="5" name="test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.sample.WebandAPITesting.Tests.SignUpTest">
+      <class name="com.restapi.Tests.ValidateRestAPI">
         <methods>
-          <include name="createAccountWithPwdLessthan8chars"/>
-          <include name="tearDown"/>
-          <include name="createAccountWithinvalidEmail"/>
-          <include name="getResult"/>
-          <include name="createAccountWithoutEmail"/>
-          <include name="createAccountWithoutdata"/>
-          <include name="setUp"/>
-          <include name="endReport"/>
-          <include name="createAccountWithoutPassword"/>
-          <include name="createAccountWithoutReTypeEmail"/>
-          <include name="startReport"/>
-          <include name="createAccountWithValidData"/>
-          <include name="createAccountWithMismatchReTypeEmail"/>
+          <include name="validate"/>
         </methods>
-      </class> <!-- com.sample.WebandAPITesting.Tests.SignUpTest -->
+      </class> <!-- com.restapi.Tests.ValidateRestAPI -->
     </classes>
-  </test> <!-- test(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
